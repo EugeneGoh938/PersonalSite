@@ -1,0 +1,170 @@
+/*******Tag Selector******/
+body {
+  color: #40514E;
+  font-family: 'Orbitron', cursive;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #114e60;
+  font-family: 'Hachi Maru Pop', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #325288;
+  font-family: 'Orbitron', cursive;
+}
+
+a {
+  color: #ed5353;
+  font-family: 'Orbitron', cursive;
+  margin: 50px;
+  text-decoration: none;
+}
+
+a:hover {
+ color: #EAf6f6;
+}
+
+p {
+    line-height: 2
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 10px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/*******Image Class Selector******/
+.top {
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle {
+  background-color: #f4eee8;
+  padding: 100px 0;
+}
+
+.bottom {
+  background-color: #f5cebe;
+  padding: 50px 0 10px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+.mountain {
+  width: 25%;
+  opacity: 0.7;
+  border-radius: 40%;
+  margin: 20px;
+}
+
+.computer {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.engineering {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.travelling {
+  border-radius: 100%;
+  width: 23%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies {
+  border-radius: 100%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/*******Text Class Selector******/
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50 auto 100 auto;
+  text-align: left;
+}
+
+.contact {
+  width: 50%;
+  margin: 30 auto 100 auto;
+}
+
+.copyright {
+ color: #ed5353;
+ font-size: 1rem;
+ padding-top: 30px;
+}
+
+/*******Button Class Selector******/
+.btn {
+  background: #ed5353;
+  background-image: -webkit-linear-gradient(top, #ed5353, #f58585);
+  background-image: -moz-linear-gradient(top, #ed5353, #f58585);
+  background-image: -ms-linear-gradient(top, #ed5353, #f58585);
+  background-image: -o-linear-gradient(top, #ed5353, #f58585);
+  background-image: linear-gradient(to bottom, #ed5353, #f58585);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Orbitron', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f2b3e1;
+  background-image: -webkit-linear-gradient(top, #f2b3e1, #cc358a);
+  background-image: -moz-linear-gradient(top, #f2b3e1, #cc358a);
+  background-image: -ms-linear-gradient(top, #f2b3e1, #cc358a);
+  background-image: -o-linear-gradient(top, #f2b3e1, #cc358a);
+  background-image: linear-gradient(to bottom, #f2b3e1, #cc358a);
+  text-decoration: none;
+}
